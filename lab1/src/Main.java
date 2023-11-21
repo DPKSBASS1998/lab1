@@ -55,9 +55,6 @@ public class Main {
 
     private static void measureSequentialAccess(List<Integer> list, int count, String listType) {
         long time = System.currentTimeMillis();
-        for (Integer value : list) {
-            // Accessing elements sequentially
-        }
         System.out.printf("Sequential access in %s: %d ms%n", listType, System.currentTimeMillis() - time);
     }
 
